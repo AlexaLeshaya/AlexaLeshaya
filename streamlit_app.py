@@ -13,4 +13,4 @@ with st.expander('Initial data'):
   y_raw
 
 with st.expander('Data visualization'):
-st.scatter_chart(data=df, x = 'bill_lenght_nm', y = 'body_mass_g', color = 'species')
+  st.scatter_chart(data=df, x = 'bill_lenght_nm', y = 'body_mass_g', color = 'species')
