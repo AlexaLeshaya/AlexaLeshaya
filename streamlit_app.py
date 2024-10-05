@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sklearn.ensamble import RandomForestClassifier
+import numpy as np
 
 st.title('👀 AlexaLeshaya')
 
