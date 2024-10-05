@@ -11,3 +11,6 @@ with st.expander('Initial data'):
   st.write('**y**')
   y_raw = df.species
   y_raw
+
+with st.expander('Data visualization'):
+st.scatter_chart(data=df, x = 'bill_lenght_nm', y = 'body_mass_g', color = 'species')
